@@ -4,7 +4,7 @@ username =
 # hostname. set it to a FQDN in order to be reached from outside
 host = localhost
 # ports
-electrum_rpc_port = 32760
+electrum_rpc_port = 30001
 stratum_tcp_port = 50001
 #stratum_tcp_ssl_port = 50002
 #report_host = 
@@ -28,7 +28,7 @@ pruning_limit = 100
 
 [bitcoind]
 bitcoind_host = localhost
-bitcoind_port = 8332
+bitcoind_port = 32760
 # user and password from bitcoin.conf
 bitcoind_user = 
 bitcoind_password = 
